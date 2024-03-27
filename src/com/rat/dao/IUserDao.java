@@ -1,8 +1,8 @@
-package com.wang.dao;
+package com.rat.dao;
 
 import java.util.List;
 
-import com.wang.entity.User;
+import com.rat.entity.User;
 
 public interface IUserDao {
     //注册

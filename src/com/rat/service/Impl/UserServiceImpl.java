@@ -1,12 +1,12 @@
-package com.wang.service.Impl;
+package com.rat.service.Impl;
 
 import java.util.List;
 
-import com.wang.dao.IUserDao;
-import com.wang.dao.Impl.UserDaoImpl;
-import com.wang.entity.User;
-import com.wang.pojo.PageBean;
-import com.wang.service.IUserService;
+import com.rat.dao.IUserDao;
+import com.rat.dao.Impl.UserDaoImpl;
+import com.rat.entity.User;
+import com.rat.pojo.PageBean;
+import com.rat.service.IUserService;
 
 public class UserServiceImpl implements IUserService{
     IUserDao userdao= new UserDaoImpl();

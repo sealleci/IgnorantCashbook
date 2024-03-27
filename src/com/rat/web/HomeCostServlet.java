@@ -1,4 +1,4 @@
-package com.wang.web;
+package com.rat.web;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.wang.pojo.HomeCost;
-import com.wang.pojo.PageBean;
-import com.wang.service.HomeCostService;
-import com.wang.utils.WebUtils;
+import com.rat.pojo.HomeCost;
+import com.rat.pojo.PageBean;
+import com.rat.service.HomeCostService;
+import com.rat.utils.WebUtils;
 
 /**
  * 访问地址url:localhost:8080/homeCost/manager/homeCostServlet

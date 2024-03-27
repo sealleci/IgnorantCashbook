@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="sd" uri="./WEB-INF/custom.tld"%>
-<%@ page import="com.wang.pojo.*"%>
+<%@ page import="com.rat.pojo.*"%>
 <!DOCTYPE html>
 <html>
 <head>

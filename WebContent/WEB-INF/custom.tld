@@ -4,7 +4,7 @@
   <short-name>Example TLD with Body</short-name>
   <tag>
     <name>sbw</name>
-    <tag-class>com.wang.mytag.MyTags</tag-class>
+    <tag-class>com.rat.mytag.MyTags</tag-class>
     <body-content>scriptless</body-content>
     <attribute>
        <name>message</name>

@@ -1,4 +1,4 @@
-package com.wang.entity;
+package com.rat.entity;
 
 public class User {
       private int uid;

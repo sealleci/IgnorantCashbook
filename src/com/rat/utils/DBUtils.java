@@ -1,4 +1,4 @@
-package com.wang.utils;
+package com.rat.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

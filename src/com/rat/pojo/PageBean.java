@@ -1,4 +1,4 @@
-package com.wang.pojo;
+package com.rat.pojo;
 
 import java.util.List;
 

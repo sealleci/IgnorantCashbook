@@ -1,4 +1,4 @@
-package com.wang.servlet;
+package com.rat.servlet;
 
 import java.io.IOException;
 
@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.wang.entity.User;
-import com.wang.pojo.PageBean;
-import com.wang.service.IUserService;
-import com.wang.service.Impl.UserServiceImpl;
-import com.wang.utils.WebUtils;
+import com.rat.entity.User;
+import com.rat.pojo.PageBean;
+import com.rat.service.IUserService;
+import com.rat.service.Impl.UserServiceImpl;
+import com.rat.utils.WebUtils;
 
 @WebServlet("/userServlet")
 public class UserServlet extends HttpServlet{

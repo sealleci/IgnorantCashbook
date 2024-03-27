@@ -1,4 +1,4 @@
-package com.wang.servlet;
+package com.rat.servlet;
 
 import java.io.IOException;
 

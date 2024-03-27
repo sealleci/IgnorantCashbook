@@ -1,4 +1,4 @@
-package com.wang.servlet;
+package com.rat.servlet;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.wang.entity.User;
-import com.wang.service.IUserService;
-import com.wang.service.Impl.UserServiceImpl;
+import com.rat.entity.User;
+import com.rat.service.IUserService;
+import com.rat.service.Impl.UserServiceImpl;
 @WebServlet("/ChangePwdServlet")
 public class ChangePasswordServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

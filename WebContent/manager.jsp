@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<%@ page import="com.wang.pojo.*"%>
+<%@ page import="com.rat.pojo.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -141,7 +141,7 @@
 				<td colspan="3">操作</td>
 			</tr>
 			<!-- 使用el表达式注意在jsp页面(如本页面第一行)导入相应的包 -->
-			<jsp:useBean id="curPage" class="com.wang.pojo.PageBean"></jsp:useBean>
+			<jsp:useBean id="curPage" class="com.rat.pojo.PageBean"></jsp:useBean>
 			<c:forEach items="${requestScope.pageBean.getList()}" var="item">
 				<tr>
 					<td>${item.name}</td>

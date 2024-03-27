@@ -1,7 +1,7 @@
-package com.wang.service;
+package com.rat.service;
 
-import com.wang.entity.User;
-import com.wang.pojo.PageBean;
+import com.rat.entity.User;
+import com.rat.pojo.PageBean;
 
 public interface IUserService {
 	public boolean Login(User user);

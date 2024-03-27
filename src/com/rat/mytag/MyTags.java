@@ -1,4 +1,4 @@
-package com.wang.mytag;
+package com.rat.mytag;
 
 import java.io.IOException;
 import java.io.StringWriter;

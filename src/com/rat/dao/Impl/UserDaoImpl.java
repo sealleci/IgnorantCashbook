@@ -1,4 +1,4 @@
-package com.wang.dao.Impl;
+package com.rat.dao.Impl;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -7,9 +7,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wang.dao.IUserDao;
-import com.wang.entity.User;
-import com.wang.utils.DBUtils;
+import com.rat.dao.IUserDao;
+import com.rat.entity.User;
+import com.rat.utils.DBUtils;
 
 public class UserDaoImpl implements IUserDao{
     //注册
